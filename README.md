@@ -1,6 +1,16 @@
 # Object Length and Width Determination From An Image
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.2.
+## Introduction
+
+The tool developed during our internship under Forest Research Institute which uses to determine the length and width of a tree from and image. This is developed with the help of mask RCNN which detects the tree and using a reference we calculated the height and width of the tree. This is implemented using Angular2.8 in the form of web app.
+
+## Tools and Languages
+* VsCode
+* Angular
+* Python 
+* HTML
+* CSS
+* Javascript
 
 ## Development server
 
