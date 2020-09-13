@@ -2,9 +2,15 @@
 
 ## Introduction
 
-The tool developed during our internship under Forest Research Institute which uses to determine the length and width of a tree from and image. This is developed with the help of mask RCNN which detects the tree and using a reference we calculated the height and width of the tree. This is implemented using Angular2.8 in the form of web app.
+This is a single page application developed using angular. The tool developed during our internship under Forest Research Institute which uses to determine the length and width of a tree from and image. This is developed with the help of mask RCNN which detects the tree and using a reference we calculated the height and width of the tree. This is implemented using Angular2.8 in the form of web app.
 
 ![Screenshot (132)](https://user-images.githubusercontent.com/48233397/93010500-d67d4200-f5aa-11ea-9591-46b31dbad7ff.png)
+![Screenshot (131)](https://user-images.githubusercontent.com/48233397/93010654-80a99980-f5ac-11ea-85b7-b8f02ef7250d.png)
+
+
+## Modules
+* Manual Estimation:- User has to select the images manually.
+* Automation:- Using the algorithms of detection like Mask RCNN, automatically the image got selected.
 
 ## Tools and Languages
 * VsCode
@@ -13,6 +19,13 @@ The tool developed during our internship under Forest Research Institute which u
 * HTML
 * CSS
 * Javascript
+
+## libraries
+* Angular Cropper
+* Mask RCNN
+* Keras
+* Numppy
+
 
 ## Development server
 
