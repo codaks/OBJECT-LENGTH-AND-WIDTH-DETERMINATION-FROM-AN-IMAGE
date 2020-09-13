@@ -4,7 +4,8 @@
 
 The tool developed during our internship under Forest Research Institute which uses to determine the length and width of a tree from and image. This is developed with the help of mask RCNN which detects the tree and using a reference we calculated the height and width of the tree. This is implemented using Angular2.8 in the form of web app.
 
-![picture alt](https://drive.google.com/file/d/14KkXVxzfF7xpA84BgtxJkrKV_BbtL0Cg/view?usp=sharing "Title is optional")
+![Screenshot (132)](https://user-images.githubusercontent.com/48233397/93010500-d67d4200-f5aa-11ea-9591-46b31dbad7ff.png)
+
 ## Tools and Languages
 * VsCode
 * Angular
