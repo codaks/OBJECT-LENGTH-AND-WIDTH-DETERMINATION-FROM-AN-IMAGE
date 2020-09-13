@@ -1,0 +1,11 @@
+#nav-menu-opt-1, #nav-menu-opt-2, #nav-menu-opt-3, #nav-menu-opt-4, #nav-menu-opt-5, #nav-menu-opt-6{
+    background: linear-gradient(to right, white 50%, rgba(255, 255, 255, 0.014) 50%);
+    background-size: 200% 100%;
+    border-radius: 5px;
+    background-position: right bottom;
+    transition: all .3s ease-out;
+}
+
+#nav-menu-opt-1:hover, #nav-menu-opt-2:hover,#nav-menu-opt-3:hover,#nav-menu-opt-4:hover,#nav-menu-opt-5:hover,#nav-menu-opt-6:hover{
+    background-position: left bottom;
+  }

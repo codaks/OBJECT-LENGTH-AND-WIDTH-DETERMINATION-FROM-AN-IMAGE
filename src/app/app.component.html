@@ -1,0 +1,111 @@
+<div style="position: relative;">
+  <mat-progress-bar mode="indeterminate" *ngIf="posts[0]" style="position: absolute;"></mat-progress-bar>
+  <div class="vertical-nav" id="sidebar">
+    <div class="py-4 px-3 mb-4 ">
+      <div class="media d-flex align-items-center">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Forest_Research_Institute_%28India%29_Logo.png/220px-Forest_Research_Institute_%28India%29_Logo.png"
+          alt="..."
+          width="65"
+          class="mr-3 rounded-circle img-thumbnail shadow-sm"
+        />
+        <div class="media-body">
+          <h4 class="m-0 font-weight-bold" style="font-size:38px;">
+            Forest Reasearch Insitute
+          </h4>
+        </div>
+      </div>
+    </div>
+
+    <ul class="nav flex-column mb-0 font-weight-bold">
+      <li class="nav-item menuItem" id="nav-menu-opt-1" style="font-size:26px;">
+        <a
+          href="#"
+          class="nav-link text-dark rounded CapitalSmall "
+          [class.active-nav]="viewMode == 'ExploreData'"
+          (click)="viewMode = 'ExploreData'"
+          routerLink="ExploreData"
+        >
+          <i class="fa fa-th-large mr-3 text-primary fa-fw "></i>
+          <img
+            src="https://img.icons8.com/wired/40/000000/google-web-search.png"
+          />
+          Explore Data
+        </a>
+      </li>
+      <li class="nav-item" id="nav-menu-opt-2" style="font-size: 26px;">
+        <a
+          href="#"
+          class="nav-link text-dark rounded "
+          [class.active-nav]="viewMode == 'CalLength'"
+          (click)="viewMode = 'CalLength'"
+          routerLink="calculate"
+        >
+          <i class="fa fa-address-card mr-3 text-primary fa-fw"></i>
+          <img src="https://img.icons8.com/pastel-glyph/40/000000/ruler.png" />
+          Calulate Length
+        </a>
+      </li>
+      <li class="nav-item" id="nav-menu-opt-3" style="font-size: 26px;;">
+        <a
+          href="#"
+          class="nav-link text-dark rounded"
+          [class.active-nav]="viewMode == 'Classification'"
+          (click)="viewMode = 'Classification'"
+          routerLink="classification"
+        >
+          <i class="fa fa-cubes mr-3 text-primary fa-fw"></i>
+          <img src="https://img.icons8.com/wired/40/000000/image-file.png" />
+          Classification
+        </a>
+      </li>
+      <li class="nav-item" id="nav-menu-opt-4" style="font-size: 26px;">
+        <a
+          href="#"
+          class="nav-link text-dark rounded"
+          [class.active-nav]="viewMode == 'AreaDetection'"
+          (click)="viewMode = 'AreaDetection'"
+          routerLink="arial-detection"
+        >
+          <i class="fa fa-picture-o mr-3 text-primary fa-fw"></i>
+          <img
+            src="https://img.icons8.com/pastel-glyph/40/000000/greenery-1--v2.png"
+          />
+          Arial Detection
+        </a>
+      </li>
+      <li class="nav-item" id="nav-menu-opt-5" style="font-size: 26px;">
+        <a
+          href="#"
+          class="nav-link text-dark rounded"
+          [class.active-nav]="viewMode == 'Analysis'"
+          (click)="viewMode = 'Analysis'"
+          routerLink="analysis-report"
+        >
+          <i class="fa fa-picture-o mr-3 text-primary fa-fw"></i>
+          <img src="https://img.icons8.com/carbon-copy/40/000000/graph.png" />
+          Analysis
+        </a>
+      </li>
+      <li class="nav-item" id="nav-menu-opt-6" style="font-size: 26px;">
+        <a
+          href="#"
+          class="nav-link text-dark rounded"
+          [class.active-nav]="viewMode == 'foroum'"
+          (click)="viewMode = 'foroum'"
+          routerLink="forum"
+        >
+          <i class="fa fa-picture-o mr-3 text-primary fa-fw"></i>
+          <img
+            src="https://img.icons8.com/ios/40/000000/comment-discussion.png"
+          />
+          Forum
+        </a>
+      </li>
+    </ul>
+  </div>
+  <router-outlet></router-outlet>
+  
+</div>
+
+!

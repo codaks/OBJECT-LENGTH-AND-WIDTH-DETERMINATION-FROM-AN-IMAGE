@@ -1,0 +1,32 @@
+.headbox{
+    font-size: 15pt;
+}
+
+.border-cgreen{
+    border: 2px solid rgb(14, 201, 76);
+}
+.border-cgreen:hover{
+    background-color: rgb(14, 201, 76);
+}
+
+.basic-font{
+    font-family: "Arial";
+}
+.btn{
+    background:linear-gradient(to right bottom,#7ed56fc7,rgba(0, 168, 106, 0.596));
+    color: black;
+    border: 1px solid right linear-gradient(to right bottom,#7ed56fc7,rgba(0, 168, 106, 0.596));
+}
+.btn:hover{
+    background:linear-gradient(to right bottom,#7ed56fc7,rgba(0, 168, 106, 0.596));
+    color: white;
+    border: 1px solid black;
+}
+.img-thumbnail{
+    height: 20%;
+    width:20%;
+    transition: .2s;
+}
+.img-thumbnail:hover{
+    transform: scale(1.5);
+}

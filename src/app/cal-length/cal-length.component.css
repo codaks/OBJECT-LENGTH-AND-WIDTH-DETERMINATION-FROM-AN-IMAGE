@@ -1,0 +1,25 @@
+.refrencebtn:hover{
+    background:linear-gradient(to right bottom,#7ed56fc7,rgba(0, 168, 106, 0.596));
+  }
+
+.refrencebtn{
+    background:white;
+    border:2px solid;
+    color : black;
+    margin-left:10%; 
+  }
+
+.currentmode{
+  background:linear-gradient(to right bottom,#7ed56fc7,rgba(0, 168, 106, 0.596));
+}
+
+.uplbtn1 {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 5px 12px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+}
+

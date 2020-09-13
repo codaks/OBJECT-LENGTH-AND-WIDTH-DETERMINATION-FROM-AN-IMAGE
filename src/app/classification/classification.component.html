@@ -1,0 +1,74 @@
+<div class="page-content p-5" id="content" >
+  <div
+    class="container shadow-sm p-3 mb-5 bg-white rounded"
+    style="margin-top:-30px; font-family: 'Cute Font', cursive;"
+  >
+  <h3 style="margin-top:20px;font-family: 'Acme', sans-serif; font-size: 25pt;">Classifing Bamboo Is Not Very Tough</h3>
+  <hr>
+    <br />
+    
+
+    <li
+      class="nav-item"
+      class="btn border border-dark"
+      style="background:linear-gradient(to right bottom,#edffebb6,#cbffec98);width:100%; border: 1px solid;text-align: center; "
+    >
+      <form class="form-inline">
+        <div
+          class="input-group mb-2 "
+          style="margin-left: 2% ;margin-right: 2% ;"
+        >
+          <div class="upload-btn-wrapper">
+            <button class="uplbtn1" style="font-size:20pt;">Upload Image Here</button>
+            <input
+              type="file"
+              name="myfile"
+              (change)="ClassificationFileUploead($event)"
+            />
+          </div>
+          
+        </div>
+       
+
+        
+        
+        <button
+          type="button"
+          class="btn btn-primary mb-2"
+          style=" color : black; background:linear-gradient(to right bottom,#7ed56fc7,rgba(0, 168, 106, 0.596));
+                              margin-top:6px; font-size:20pt;"
+        >
+        <img src="https://img.icons8.com/ios/30/000000/brain.png">
+          Predict
+        </button>
+
+        
+        <label *ngIf="prdection=='no'" style="margin-left:2%;font-size: 30pt; ">This is <span style="border:2px solid Black; font-size:40pt;">Buddha Bamboo</span></label>
+      </form>
+    </li>
+
+    <div class="container" style="width: 100%;">
+      <ul class="nav nav-pills" style="font-family:lato">
+        <li class="nav-item" class="btn " style="width:100%;  ">
+          <img
+            src="assets/bbclassification.jpg"
+            class="img-fluid"
+            alt="Bamboo For Classification"
+          />
+        </li>
+      </ul>
+    </div>
+    <div class="container" style="width: 100%;margin-top: 3%">
+      <ul class="nav nav-pills" style="font-family:lato">
+        This is
+        {{
+          data
+        }}
+      </ul>
+    </div>
+
+    <button type="button" class="btn btn-primary" (click)="test()">
+      Primary
+    </button>
+  </div>
+</div>
