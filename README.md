@@ -24,7 +24,7 @@ This is a single page application developed using angular. The tool developed du
 * Angular Cropper
 * Mask RCNN
 * Keras
-* Numppy
+* Numpy
 
 
 ## Development server
